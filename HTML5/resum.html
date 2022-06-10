@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>온라인 이력서</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        body{
+            height: 100vh; 
+            background-color: #f1f1f1;
+        }
+        img{display: block;}
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          border: 1px solid #e7e7e7;
+          background-color: #f3f3f3;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: #666;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #ddd;
+        }
+        
+        li a.active {
+          color: white;
+          background-color: #04AA6D;
+        }
+        .wrap{
+            width: 1200px;
+            margin: auto;
+        }
+        .sub{
+            display: none;
+            position: absolute;
+            top:49px;
+            left: 0;
+        }
+        .sub li{
+            width: 100%;
+        }
+        .main li:last-child{
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        .main li:last-child:hover .sub{
+            display: block;
+        }
+        .main{
+            height: 49px;
+        }
+        </style>
+</head>
+<body>
+    <style>
+        #mainBg{
+            background-image: url("./image/mainbg.jpg");
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+    <div id="mainBg"></div>
+    <ul class="main">
+        <div class="wrap">
+        <li><a href="./main.html">Home</a></li>
+        <li><a class="active" href="./resum.html">온라인이력서</a></li>
+        <li><a href="./ulife.html">대학생활</a></li>
+        <li><a href="./portfolio.html">포트폴리오</a></li>
+        <li><a>바로가기</a>
+            <ul class="sub">
+                <li><a href="https://www.youtube.com/">유튜브</a></li>
+                <li><a href="https://www.naver.com/">네이버</a></li>
+                <li><a href="https://www.daum.net/">다음</a></li>
+            </ul>
+        </li>
+    </div>
+    </ul>
+    <div class="wrap">
+        <br>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
+      <br>
+      
+      <h2>미스터 킴의 이력서</h2>
+      
+      <table>
+        <tr>
+          <th><img src="../HTML5/image/김학림반명함.jpg" alt="나의사진"</th>
+          <th>Kimhaklim</th>
+          <th>한국KOREA</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>Laughing Bacchus Winecellars</td>
+          <td>Yoshi Tannamuri</td>
+          <td>Canada</td>
+        </tr>
+        <tr>
+          <td>Magazzini Alimentari Riuniti</td>
+          <td>Giovanni Rovelli</td>
+          <td>Italy</td>
+        </tr>
+      </table>
+    </div>
+</body>
+</html>
